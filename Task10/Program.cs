@@ -12,6 +12,9 @@ namespace Task10
         {
             TestClass testClass = new TestClass(7, 9);
             TypeInfo.MethodReflectInfo<TestClass>(testClass);
+            TypeInfo.ShowFieldPropertyInfo<TestClass>(testClass);
+            TypeInfo.ShowInterfaceInfo<TestClass>(testClass);
+            TypeInfo.ShowConstructorsinfo<TestClass>(testClass);
             Console.ReadKey();
         }
     }
